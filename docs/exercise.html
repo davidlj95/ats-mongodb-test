@@ -1,4 +1,4 @@
-<!DOCTYPE html> <html> <head> <title>exercici_mongodb_sol</title> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">  <style> .markdown-preview-enhanced { font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif; font-size: 16px; line-height: 1.6; color: rgb(171, 178, 191); overflow: initial; margin: 10px 13px; padding: 2em; box-sizing: border-box; word-wrap: break-word; background-color: rgb(40, 44, 52); }
+<!DOCTYPE html> <html> <head> <title>ATS MongoDB Test - Exercici</title> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">  <style> .markdown-preview-enhanced { font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif; font-size: 16px; line-height: 1.6; color: rgb(171, 178, 191); overflow: initial; margin: 10px 13px; padding: 2em; box-sizing: border-box; word-wrap: break-word; background-color: rgb(40, 44, 52); }
 .markdown-preview-enhanced[data-use-github-style] { color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); }
 .markdown-preview-enhanced > :first-child { margin-top: 0px; }
 .markdown-preview-enhanced[is="space-pen-div"] { width: 100%; margin: 0px; z-index: 999; overflow: scroll; font-size: 16px; display: block; position: absolute; }
@@ -63,16 +63,16 @@
 .markdown-preview-enhanced kbd { color: rgb(255, 255, 255); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(75, 83, 98) rgb(75, 83, 98) rgb(62, 68, 81); padding: 2px 4px; background-color: rgb(58, 63, 75); }
 .markdown-preview-enhanced[data-use-github-style] kbd { color: rgb(51, 51, 51); border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(187, 187, 187); border-radius: 3px; box-shadow: rgb(187, 187, 187) 0px -1px 0px inset; background-color: rgb(252, 252, 252); }
 .markdown-preview-enhanced .pagebreak, .markdown-preview-enhanced .newpage { page-break-before: always; }
-@media screen and (min-width: 914px) { 
+@media screen and (min-width: 914px) {
   .markdown-preview-enhanced { width: 980px; margin: 10px auto; background: rgb(40, 44, 52); }
 }
-@media screen and (max-width: 400px) { 
+@media screen and (max-width: 400px) {
   .markdown-preview-enhanced { font-size: 14px; margin: 0px auto; padding: 15px; }
 }
-@media screen and (min-width: 914px) { 
+@media screen and (min-width: 914px) {
   .markdown-preview-enhanced[data-use-github-style] { background: rgb(255, 255, 255); }
 }
-@media print { 
+@media print {
   .markdown-preview-enhanced { background-color: rgb(40, 44, 52); }
   .markdown-preview-enhanced h1, .markdown-preview-enhanced h2, .markdown-preview-enhanced h3, .markdown-preview-enhanced h4, .markdown-preview-enhanced h5, .markdown-preview-enhanced h6 { color: rgb(255, 255, 255); page-break-after: avoid; }
   .markdown-preview-enhanced blockquote { color: rgb(124, 135, 156); }
@@ -81,7 +81,7 @@
   .markdown-preview-enhanced img { display: block; max-width: 100%; max-height: 100%; }
   .markdown-preview-enhanced pre, .markdown-preview-enhanced code { word-wrap: break-word; white-space: normal; }
 }
-@media print { 
+@media print {
   .markdown-preview-enhanced[data-use-github-style] { background-color: rgb(255, 255, 255); }
   .markdown-preview-enhanced[data-use-github-style] h1, .markdown-preview-enhanced[data-use-github-style] h2, .markdown-preview-enhanced[data-use-github-style] h3, .markdown-preview-enhanced[data-use-github-style] h4, .markdown-preview-enhanced[data-use-github-style] h5, .markdown-preview-enhanced[data-use-github-style] h6 { color: rgb(34, 34, 34); }
   .markdown-preview-enhanced[data-use-github-style] blockquote { color: rgb(119, 119, 119); }
@@ -450,18 +450,18 @@ Filtrem per documents amb productes suggerits <code>Samsung TV 65 QLEV</code> o 
 <h2 id="annexes">Annexes</h2>
 <p>S'adjunta annex al document:</p>
 <ol>
-<li><p><strong><code>insercions.txt</code></strong><br>
+<li><p><strong><code><a target="_blank" href="extra/insercions.txt">insercions.txt</a></code></strong><br>
 Fitxer de text amb les comandes de terminal per inserir els elements de la col·lecció d'exemple <code>mini</code> (conté correcions d'errors de l'exercici original i permet copiar / enganxar més fàcilment que el PDF)</p></li>
-<li><p><strong><code>simple_app.jar</code></strong><br>
+<li><p><strong><code><a target="_blank" href="https://github.com/davidlj95/ats-mongodb-test/raw/master/bin/simple_app.jar">simple_app.jar</a></code></strong><br>
 El fitxer per executar el codi Java, <code>simple_app.jar</code> que ja inclou les llibreries de <code>MongoDB Driver</code> i es pot executar amb la comanda:<br>
 <br></p>
 <pre class="editor-colors lang-bash"><div class="line"><span class="source shell"><span>java&nbsp;-jar&nbsp;simple_app.jar</span></span></div></pre>
 <blockquote>
 <p>Avís: El servidor de MongoDB <code>servidor.davidlj95.com</code> està restringit a ús privat i per tant no funcionarà a menys que s'apliquin configuracions especials, per tant, el programa fallarà si no troba cap servidor a <code>servidor.davidlj95.com</code> amb un servei de MongoDB.</p>
 </blockquote></li>
-<li><p><strong><code>simple_app.zip</code></strong><br>
+<li><p><strong><code><a target="_blank" href="https://github.com/davidlj95/ats-mongodb-test/archive/master.zip">simple_app.zip</a></code></strong><br>
 El projecte de <em>Java</em> amb <em>Apache Maven</em> amb el codi font de l'exercici, llibreries...</p></li>
-<li><p><strong><code>resultat_java.rtf</code></strong><br>
+<li><p><strong><code><a target="_blank" href="extra/resultat_java.rtf">resultat_java.rtf</a></code></strong><br>
 El resultat de l'execució del projecte <em>Java</em>, amb colors tal i com apareix a la consola de l'Eclipse</p></li>
 </ol>
 <h2 id="repositori">Repositori</h2>
